@@ -5,8 +5,10 @@
     <atom>        ::= <constant> | <variable>
     <combination> ::= (<term><term>)
 
-eg. constants: **I, K, S,** etc.\
-eg. variables: _x, y, z_\
+eg. constants: **I, K, S,** etc.
+
+eg. variables: _x, y, z_
+
 eg. combination: **I**_x_, _yz_, ((_yz_)(**I**_x_))
     
 Given distinct terms `p, q, r, s`, the following properties hold:
@@ -43,9 +45,8 @@ The term `S(KS)Kpqr` reduces as follows:
 
 ```
 S(KS)Kpqr
-S(KS)Kpq
-KSp(Kp)q
-S(Kp)q
+KSp(Kp)qr
+S(Kp)qr
 S(Kp)qr
 Kpr(qr)
 p(qr)
