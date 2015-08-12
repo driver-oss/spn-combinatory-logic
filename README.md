@@ -56,3 +56,9 @@ p(qr)
 
 As in a typical project: `sbt test` and `sbt compile` will test and compile your code.
 With utest, you can run `test-only -- Tests --trace=false` in sbt to supress the stack trace.
+
+
+#### More
+
+Check out [this page](http://www.cantab.net/users/antoni.diller/brackets/intro.html)
+to learn more about combinatory logic and bracket abstraction algorithms.
