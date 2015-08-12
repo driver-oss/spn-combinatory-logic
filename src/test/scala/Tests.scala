@@ -102,7 +102,7 @@ object Tests extends TestSuite {
 
       "step by step reduction"-{
         /*assert(
-          evalHead(S * (K * S) * K * p * q * r) == (S * (K * S) * K * p * q * r),
+          evalHead(S * (K * S) * K * p * q * r) == (K * S * p * (K * p) * q * r),
           evalHead(K * S * p * (K * p) * q * r) == (S * (K * p) * q * r),
           evalHead(S * (K * p) * q * r)         == (K * p * r * (q * r)),
           evalHead(K * p * r * (q * r))         == (p * (q * r))
