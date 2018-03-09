@@ -1,5 +1,4 @@
 import utest._
-import utest.ExecutionContext
 import cl._
 
 object Tests extends TestSuite {
